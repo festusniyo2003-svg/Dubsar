@@ -16,7 +16,7 @@ jobs:
 
       - name: Extract updated DUBSAR project
         run: |
-          unzip -o DUBSAR_Android_Starter_with_photo_logo.zip -d .
+          unzip -o Dubsar_Android_APK_Project.zip -d .
 
       - name: Set up Java
         uses: actions/setup-java@v4
